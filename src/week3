@@ -1,0 +1,15 @@
+/*int potPin = 36;
+   int ledPin = 23;
+
+   void setup() {
+    ledcAttachPin(ledPin, 0);
+    ledcSetup(0, 500, 8);
+   }
+
+   void loop() {
+    int potValue = analogRead(potPin);
+    int dutyCycle = map(potValue, 0, 4095, 0, 255);
+    ledcWrite(0, dutyCycle);
+    delay(10);
+   }
+*/
